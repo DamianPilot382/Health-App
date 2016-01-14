@@ -20,7 +20,7 @@ public class EmergencyFragment extends FragmentActivity {
         setContentView(R.layout.fragment_emergency);
 
         final Intent phoneIntent= new Intent(Intent.ACTION_CALL);
-        phoneIntent.setData(Uri.parse("tel:3236057803"));
+        phoneIntent.setData(Uri.parse("tel:8189704180"));
 
         //Button the pressing of which will summon the emergency services to your door in the case that you have fallen or are having a heart attack or cant open a pickle jar or something
         mDeathButton = (Button) findViewById(R.id.death_button);
