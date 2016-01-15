@@ -6,6 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/new_button"/>
 
     <!-- As the main content view, the view below consumes the entire
          space available using match_parent in both dimensions. -->
@@ -27,5 +31,9 @@
               android:layout_gravity="start"
               android:name="com.csastudent2015.health_app.NavigationDrawerFragment"
               tools:layout="@layout/fragment_navigation_drawer"/>
+    <ImageView
+        android:layout_width="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content"/>
+
 
 </android.support.v4.widget.DrawerLayout>
