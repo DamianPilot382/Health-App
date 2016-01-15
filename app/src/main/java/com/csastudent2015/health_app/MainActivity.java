@@ -6,6 +6,8 @@ import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -17,6 +19,7 @@ import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -33,6 +36,7 @@ public class MainActivity extends Activity
      */
     private CharSequence mTitle;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +51,7 @@ public class MainActivity extends Activity
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
 
+
         //FIRST AID SPINNER THINGY
         Spinner firstAidSpinner = (Spinner) findViewById(R.id.first_aid_spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
@@ -54,6 +59,13 @@ public class MainActivity extends Activity
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         firstAidSpinner.setAdapter(adapter);
     }
+
+
+
+
+
+
+
 
     @Override
     public void onNavigationDrawerItemSelected(int position) {
