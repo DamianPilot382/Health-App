@@ -9,5 +9,15 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
+    <!-- This string is for the first aid section; it details which sections  can be selected-->
+    <string-array name="first_aid_array">
+        <item>Small Cuts</item>
+        <item>Bites (Snake/Spider)</item>
+        <item>Burns</item>
+        <item>Heart Attack</item>
+        <item>Heat Illnesses</item>
+        <item>Stroke</item>
+    </string-array>
+
 
 </resources>
