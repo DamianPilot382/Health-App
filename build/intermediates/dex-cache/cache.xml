@@ -2,25 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/classes.jar"
+        jar="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/classes-ba341996027d773a66cbb559e383523f95c7f62c.jar" />
+        revision="23.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/classes-a90dc1510752fdcc97d0f2232a7b47dff486da6b.jar" />
     </item>
     <item
-        jar="/Volumes/Multiuser Partition/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jar="/Volumes/Multiuser Partition/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-3e51c6efc5c43f726c6a9f269871c0255077c298.jar" />
+        revision="23.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-edc12e23df35501b4cf2f4ceec9b1412d13f2b48.jar" />
     </item>
     <item
-        jar="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/libs/internal_impl-23.0.0.jar"
+        jar="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-e6dff3388cd94e9916620978a1202b5a34e9dea0.jar" />
+        revision="23.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-a271d37ea9ba149c25cf73b9fdd0aab8cb460973.jar" />
+    </item>
+    <item
+        jar="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/classes-7a2ab8129fa8655cc6924f85b03d4775704847d0.jar" />
     </item>
 
 </items>

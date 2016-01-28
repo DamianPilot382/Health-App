@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="nav_items">
-        <item>To Do List</item>
-        <item>Placeholder 1</item>
-        <item>Placeholder 2</item>
+        <item>Emergency Services</item>
+        <item>Important Health stuff</item>
+        <item>Some Other Doctor thing</item>
     </string-array>
 </resources>

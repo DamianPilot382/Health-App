@@ -91,7 +91,7 @@ public class MainActivity extends ActionBarActivity {
         Fragment fragment = null;
         switch (position) {
             case 0:
-                fragment = new PlaceHolderFragment();
+                fragment = new EmergencyFragment();
                 break;
             case 1:
             case 2:
