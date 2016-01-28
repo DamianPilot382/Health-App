@@ -1,4 +1,4 @@
-package com.csastudent2015.health_app;
+package com.pilotcraftmc.health;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

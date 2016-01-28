@@ -2,22 +2,21 @@
 <resources>
 
     <string name="app_name">Healf++</string>
-    <string name="title_section1">Home</string>
-    <string name="title_section2">First Aid</string>
-    <string name="title_section3">Section 3</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_example">Example action</string>
+    <string name="hello_world">Hi!</string>
     <string name="action_settings">Settings</string>
-    <!-- This string is for the first aid section; it details which sections  can be selected-->
-    <string-array name="first_aid_array">
-        <item>Small Cuts</item>
-        <item>Bites (Snake/Spider)</item>
-        <item>Burns</item>
-        <item>Heart Attack</item>
-        <item>Heat Illnesses</item>
-        <item>Stroke</item>
-    </string-array>
+    <string name="todo_title">New Item Title</string>
+    <string name="todo_desc">New Item Description</string>
+    <string name="drawer_open">The Drawer is Open</string>
+    <string name="drawer_close">The Drawer is Closed</string>
+    <string name="action_example">Action Example</string>
+    <string name="navigation_drawer_open">Navigation Drawer Open</string>
+    <string name="navigation_drawer_close">Navigation Drawer Close</string>
+    <string name="title_section1">Title Section 1</string>
+    <string name="title_section2">Title Section 2</string>
+    <string name="title_section3">Title Section 3</string>
+
+
+
 
 
 </resources>

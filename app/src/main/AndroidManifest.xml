@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.csastudent2015.health_app" >
+    package="com.pilotcraftmc.health" >
 
     <application
         android:allowBackup="true"
