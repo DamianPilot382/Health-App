@@ -1,10 +1,14 @@
 package com.pilotcraftmc.health;
 
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.Menu;
@@ -70,6 +74,10 @@ public class MainActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
+        ActionBar s = getSupportActionBar();
+        Drawable d = getResources().getDrawable(R.drawable.doge);
+        s.setBackgroundDrawable(d);
+
 
     }
 
@@ -95,6 +103,11 @@ public class MainActivity extends ActionBarActivity {
                 break;
             case 1:
             case 2:
+                fragment = new PlaceHolderFragment();
+                break;
+            case 3:
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:IJNR2EpS0jw"));
+                startActivity(i);
                 fragment = new PlaceHolderFragment();
                 break;
             default:
