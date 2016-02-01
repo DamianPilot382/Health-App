@@ -107,12 +107,13 @@ public class MainActivity extends ActionBarActivity {
                 startActivity(intent);
                 fragment = new PlaceHolderFragment();
                 break;
-            default:
-                fragment = new PlaceHolderFragment();
             case 4:
                 Intent bob = new Intent(android.content.Intent.ACTION_VIEW,
                         Uri.parse("http://maps.google.com/maps?saddr=20.344,34.34&daddr=20.5666,45.345"));
                 startActivity(bob);
+                fragment = new PlaceHolderFragment();
+                break;
+            default:
                 fragment = new PlaceHolderFragment();
         }
 
