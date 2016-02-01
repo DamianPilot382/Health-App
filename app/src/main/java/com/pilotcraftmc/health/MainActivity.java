@@ -1,7 +1,11 @@
 package com.pilotcraftmc.health;
 
+import android.content.ContentUris;
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.CalendarContract;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
@@ -95,11 +99,21 @@ public class MainActivity extends ActionBarActivity {
                 break;
             case 1:
             case 2:
+                long startMillis = System.currentTimeMillis();
+                Uri.Builder builder = CalendarContract.CONTENT_URI.buildUpon();
+                builder.appendPath("time");
+                ContentUris.appendId(builder, startMillis);
+                Intent intent = new Intent(Intent.ACTION_VIEW).setData(builder.build());
+                startActivity(intent);
                 fragment = new PlaceHolderFragment();
                 break;
             default:
                 fragment = new PlaceHolderFragment();
-
+            case 4:
+                Intent bob = new Intent(android.content.Intent.ACTION_VIEW,
+                        Uri.parse("http://maps.google.com/maps?saddr=20.344,34.34&daddr=20.5666,45.345"));
+                startActivity(bob);
+                fragment = new PlaceHolderFragment();
         }
 
         // Insert the fragment by replacing any existing fragment
