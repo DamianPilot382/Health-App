@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="nav_items">
-        <item>To Do List</item>
-        <item>Placeholder 1</item>
-        <item>Placeholder 2</item>
+        <item>Emergency</item>
+        <item>First Aid</item>
+        <item>Calendar</item>
+        <item>Why should I vaccine?</item>
     </string-array>
 </resources>
