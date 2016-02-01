@@ -75,7 +75,7 @@ public class MainActivity extends ActionBarActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
 
         ActionBar s = getSupportActionBar();
-        Drawable d = getResources().getDrawable(R.drawable.doge);
+        Drawable d = getResources().getDrawable(R.drawable.header);
         s.setBackgroundDrawable(d);
 
 
@@ -99,7 +99,7 @@ public class MainActivity extends ActionBarActivity {
         Fragment fragment = null;
         switch (position) {
             case 0:
-                fragment = new EmergencyFragment();
+                fragment = new PlaceHolderFragment();
                 break;
             case 1:
             case 2:
