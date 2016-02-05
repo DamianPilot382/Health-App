@@ -2,12 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:weightSum="1">
     <Button
-        android:layout_width="400dp"
+        android:layout_width="wrap_content"
         android:layout_height="400dp"
         android:textAlignment="center"
         android:text="I AM CURRENTLY DYING"
         android:id="@+id/death_button"/>
 
+    <Button
+        android:text="Select Emergency #"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/death_button"
+
+        android:id="@+id/contact_button"
+        />
+
+    <TextView
+        android:text=""
+        android:textSize="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/death_button"
+        android:id="@+id/phone"
+        android:layout_weight="0.13"/>
 </LinearLayout>
