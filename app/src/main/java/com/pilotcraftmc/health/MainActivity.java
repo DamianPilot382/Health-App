@@ -1,10 +1,16 @@
 package com.pilotcraftmc.health;
 
+import android.content.ContentUris;
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.CalendarContract;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.Menu;
@@ -70,7 +76,9 @@ public class MainActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
-
+        ActionBar s = getSupportActionBar();
+        Drawable d = getResources().getDrawable(R.drawable.healfheader);
+        s.setBackgroundDrawable(d);
     }
 
 
@@ -91,12 +99,29 @@ public class MainActivity extends ActionBarActivity {
         Fragment fragment = null;
         switch (position) {
             case 0:
-                fragment = new EmergencyFragment();
+                fragment = new PlaceHolderFragment();
                 break;
             case 1:
                 fragment = new FirstAidFragment();
                 break;
             case 2:
+                long startMillis = System.currentTimeMillis();
+                Uri.Builder builder = CalendarContract.CONTENT_URI.buildUpon();
+                builder.appendPath("time");
+                ContentUris.appendId(builder, startMillis);
+                Intent intent = new Intent(Intent.ACTION_VIEW).setData(builder.build());
+                startActivity(intent);
+                fragment = new PlaceHolderFragment();
+                break;
+            case 3:
+                //Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:IJNR2EpS0jw"));
+                //startActivity(i);
+                fragment = new VaccineFragment();
+                break;
+            case 4:
+                Intent bob = new Intent(android.content.Intent.ACTION_VIEW,
+                        Uri.parse("http://maps.google.com/maps?saddr=20.344,34.34&daddr=20.5666,45.345"));
+                startActivity(bob);
                 fragment = new PlaceHolderFragment();
                 break;
             default:

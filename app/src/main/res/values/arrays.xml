@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="nav_items">
-        <item>Emergency Services</item>
+        <item>Emergency</item>
         <item>First Aid</item>
-        <item>Some Other Doctor thing</item>
+        <item>Calendar</item>
+        <item>Why should I vaccine?</item>
+        <item>Hospitals Near Me</item>
     </string-array>
+
+    <string-array name="vaccine">
+        <item>Video 1</item>
+        <item>Video 2</item>
+        <item>Video 3</item>
+        <item>Video 4</item>
+        <item>Video 5</item>
+        <item>Video 6</item>
+        <item>Video 7</item>
+        <item>Video 8</item>
+        <item>Video 9</item>
+        <item>Video 10</item>
+    </string-array>
+
 </resources>
