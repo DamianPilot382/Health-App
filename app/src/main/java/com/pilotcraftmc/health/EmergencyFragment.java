@@ -4,6 +4,7 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.v4.app.Fragment;
 import android.telephony.SmsManager;
 import android.util.Log;
@@ -17,6 +18,9 @@ import android.widget.Button;
  */
 public class EmergencyFragment extends Fragment {
     Button mDeathButton;
+    Button mContactButton;
+    public static final String DEBUG_TAG="Shit's broke yo";
+    private static final int CONTACT_PICKER_RESULT= 1001;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -48,7 +52,18 @@ public class EmergencyFragment extends Fragment {
             }
 
         });
+        mContactButton=(Button) rootView.findViewById(R.id.contact_button);
+        mContactButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent contactPickerIntent= new Intent(Intent.ACTION_PICK,
+                        ContactsContract.Contacts.CONTENT_URI);
+                startActivityForResult(contactPickerIntent,CONTACT_PICKER_RESULT);
+
+            }
+        });
+
        return rootView;
     }
+
 
 }

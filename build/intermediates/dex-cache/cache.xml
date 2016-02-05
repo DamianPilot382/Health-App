@@ -2,53 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/393359/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jar="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/393359/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/classes-e785caa36c4a93feb0efca123afe51ded3b60b41.jar" />
-    </item>
-    <item
-        jar="/Users/393359/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/393359/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5193b7b6d98ec19e54cae1fa50be31383ee118dd.jar" />
+        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/classes-a90dc1510752fdcc97d0f2232a7b47dff486da6b.jar" />
     </item>
     <item
         jar="/Volumes/Multiuser Partition/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/393359/Desktop/Health/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-edc12e23df35501b4cf2f4ceec9b1412d13f2b48.jar" />
+        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-edc12e23df35501b4cf2f4ceec9b1412d13f2b48.jar" />
     </item>
     <item
-        jar="/Users/393359/Desktop/Health/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/393359/Desktop/Health/app/build/intermediates/pre-dexed/debug/classes-d7a500aa084cc6898efa5574944459efd0a165f1.jar" />
-    </item>
-    <item
-        jar="/Users/393359/Desktop/Health/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jar="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/393359/Desktop/Health/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c383691ef3dbf7f0ee30983f181171a25e4bc836.jar" />
+        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-a271d37ea9ba149c25cf73b9fdd0aab8cb460973.jar" />
     </item>
     <item
-        jar="/Users/393359/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jar="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/393359/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/classes-0fc5ef2ec47e469abe9e351ed7d9d6ea1a43c8dd.jar" />
-    </item>
-    <item
-        jar="/Users/393359/Desktop/Health/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/393359/Desktop/Health/app/build/intermediates/pre-dexed/debug/classes-25683fb802d1c29502808ca48cf216797153ae2d.jar" />
+        <dex dex="/Users/csastudent2015/Desktop/Health-App/app/build/intermediates/pre-dexed/debug/classes-7a2ab8129fa8655cc6924f85b03d4775704847d0.jar" />
     </item>
 
 </items>

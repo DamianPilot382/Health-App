@@ -79,8 +79,6 @@ public class MainActivity extends ActionBarActivity {
         ActionBar s = getSupportActionBar();
         Drawable d = getResources().getDrawable(R.drawable.healfheader);
         s.setBackgroundDrawable(d);
-
-
     }
 
 
@@ -101,9 +99,10 @@ public class MainActivity extends ActionBarActivity {
         Fragment fragment = null;
         switch (position) {
             case 0:
-                fragment = new PlaceHolderFragment();
+                fragment = new EmergencyFragment();
                 break;
             case 1:
+                fragment = new FirstAidFragment();
                 break;
             case 2:
                 long startMillis = System.currentTimeMillis();
@@ -119,12 +118,13 @@ public class MainActivity extends ActionBarActivity {
                 break;
             case 4:
                 Intent bob = new Intent(android.content.Intent.ACTION_VIEW,
-                Uri.parse("http://maps.google.com/maps?saddr=20.344,34.34&daddr=20.5666,45.345"));
+                        Uri.parse("http://maps.google.com/maps?saddr=20.344,34.34&daddr=20.5666,45.345"));
                 startActivity(bob);
-                fragment = new VaccineFragment();
+                fragment = new PlaceHolderFragment();
                 break;
             default:
                 fragment = new PlaceHolderFragment();
+
         }
 
         // Insert the fragment by replacing any existing fragment
