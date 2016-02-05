@@ -103,6 +103,7 @@ public class MainActivity extends ActionBarActivity {
                 fragment = new PlaceHolderFragment();
                 break;
             case 1:
+                fragment = new FirstAidFragment();
                 break;
             case 2:
                 long startMillis = System.currentTimeMillis();
@@ -126,6 +127,7 @@ public class MainActivity extends ActionBarActivity {
                 break;
             default:
                 fragment = new PlaceHolderFragment();
+
         }
 
         // Insert the fragment by replacing any existing fragment
