@@ -9,16 +9,10 @@
     </string-array>
 
     <string-array name="vaccine">
-        <item>Video 1</item>
-        <item>Video 2</item>
-        <item>Video 3</item>
-        <item>Video 4</item>
-        <item>Video 5</item>
-        <item>Video 6</item>
-        <item>Video 7</item>
-        <item>Video 8</item>
-        <item>Video 9</item>
-        <item>Video 10</item>
+        <item>The Science of Anti-Vaccination</item><!-- Rzxr9FeZf1g -->
+        <item>Should you get Vaccinated?</item><!-- s_6QW9sNPEY -->
+        <item>The Good Doctor - Why Vaccinations are So Important</item><!-- cgymkPp6flg -->
+        <item>Vaccines do not cause autism, they save lives</item><!-- mLHnUjhzv9E -->
     </string-array>
     <string-array name="types_of_burns">
         <item>First-Degree Burns: red, non-blistered skin</item>
