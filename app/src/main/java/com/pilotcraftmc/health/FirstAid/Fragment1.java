@@ -9,8 +9,6 @@ import android.view.ViewGroup;
 
 import com.pilotcraftmc.health.R;
 
-import java.util.Vector;
-
 /**
  * Created by csastudent2015 on 2/1/16.
  * csastudent2015 is super cool.
@@ -19,7 +17,7 @@ public class Fragment1 extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment1_layout, container, false );
+        View v = inflater.inflate(R.layout.fragment_burns, container, false );
 
         return v;
     }

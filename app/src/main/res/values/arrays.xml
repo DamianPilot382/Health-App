@@ -20,5 +20,9 @@
         <item>Video 9</item>
         <item>Video 10</item>
     </string-array>
-
+    <string-array name="types_of_burns">
+        <item>First-Degree Burns: red, non-blistered skin</item>
+        <item>Second-Degree Burns: blisters and some thickening of the skin</item>
+        <item>Third-Degree Burns: widespread thickness with a white, leathery appearance</item>
+    </string-array>
 </resources>
