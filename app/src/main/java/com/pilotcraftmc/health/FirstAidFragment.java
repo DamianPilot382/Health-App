@@ -39,7 +39,7 @@ public class FirstAidFragment extends Fragment implements ViewPager.OnPageChange
 
         viewPager = (ViewPager) rootView.findViewById(R.id.view_pager);
         List<Fragment> listFragments = new ArrayList<Fragment>();
-        listFragments.add(new Fragment1());
+        listFragments.add(new BurnsFragment());
         listFragments.add(new Fragment2());
         listFragments.add(new Fragment3());
 
@@ -49,7 +49,7 @@ public class FirstAidFragment extends Fragment implements ViewPager.OnPageChange
         tabHost = (TabHost) rootView.findViewById(R.id.tabHost);
         tabHost.setup();
 
-        String[] tabNames = {"Tab1", "Tab2", "Tab3"};
+        String[] tabNames = {"Burns", "Tab2", "Tab3"};
         for(int i=0; i<tabNames.length; i++){
             TabHost.TabSpec tabSpec;
             tabSpec = tabHost.newTabSpec(tabNames[i]);

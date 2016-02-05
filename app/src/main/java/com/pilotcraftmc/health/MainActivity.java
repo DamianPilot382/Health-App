@@ -114,8 +114,6 @@ public class MainActivity extends ActionBarActivity {
                 fragment = new PlaceHolderFragment();
                 break;
             case 3:
-                //Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:IJNR2EpS0jw"));
-                //startActivity(i);
                 fragment = new VaccineFragment();
                 break;
             case 4:

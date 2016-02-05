@@ -16,7 +16,21 @@
     <string name="title_section3">Title Section 3</string>
     <string name="orange_goat"> </string>
 
-
+    <!-- BURN STRINGS -->
+    <string name="burns_1degree">First-Degree Burns: red, non-blistered skin\n
+                                 \u2022 Soak the wound in cool water for five minutes or longer\n
+                                 \u2022 Take acetaminophen or ibuprofen for pain relief\n
+                                 \u2022 Apply aloe vera gel or cream to soothe the skin\n
+                                 \u2022 Use an antibiotic ointment and loose gauze to protect the affected area
+    </string>
+    <string name="burns_2degree">Second-Degree Burns: blisters and some thickening of the skin\n
+                                 \u2022 running the skin under cool water for 15 minutes or longer
+                                 \u2022 taking over-the-counter pain medication (acetaminophen or ibuprofen)
+                                 \u2022 applying antibiotic cream to blisters
+    </string>
+    <string name="burns_3degree">Third-Degree Burns: widespread thickness with a white, leathery appearance\n
+                             \u2022 Call 911
+    </string>
 
 
 
