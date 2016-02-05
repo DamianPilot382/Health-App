@@ -37,9 +37,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.pilotcraftmc.health" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd05975a-a16c-406d-882d-b516e3cb18ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="fd05975a-a16c-406d-882d-b516e3cb18ea" name="Default" comment="" />
     <ignored path="Health-App.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1570,7 +1568,11 @@
       <created>1454694105107</created>
       <updated>1454694105107</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="IMportantmessages">
+      <created>1454694111250</created>
+      <updated>1454694111250</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
