@@ -2,7 +2,7 @@
 <resources>
     <string-array name="nav_items">
         <item>Emergency Services</item>
-        <item>Important Health stuff</item>
+        <item>First Aid</item>
         <item>Some Other Doctor thing</item>
     </string-array>
 </resources>

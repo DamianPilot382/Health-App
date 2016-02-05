@@ -94,6 +94,8 @@ public class MainActivity extends ActionBarActivity {
                 fragment = new EmergencyFragment();
                 break;
             case 1:
+                fragment = new FirstAidFragment();
+                break;
             case 2:
                 fragment = new PlaceHolderFragment();
                 break;
