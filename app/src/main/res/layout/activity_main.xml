@@ -12,17 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textStyle="italic"
-            android:textColor="#ffffffff"
-            android:textAlignment="center"
-            android:textSize="8mm"
-            android:text="Howdy, Unhealthy swine! You've FINALLY opened the Healf App. So move your fat, grubby fingers to the hamburger menu and do your SHIT!"
+        <ImageView
+            android:layout_height="272dp"
+            android:layout_width="184dp"
+            android:layout_gravity="left|top"
+            android:background="@drawable/arrow" />
 
-            android:id="@+id/bob"
-            android:gravity="bottom" />
     </FrameLayout>
     <!-- The navigation drawer -->
     <LinearLayout
@@ -47,6 +42,7 @@
 
 
     </LinearLayout>
+
 
 
 </android.support.v4.widget.DrawerLayout>
