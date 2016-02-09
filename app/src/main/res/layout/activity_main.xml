@@ -2,12 +2,28 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#05377B"
+    >
+
     <!-- The main content view -->
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="italic"
+            android:textColor="#ffffffff"
+            android:textAlignment="center"
+            android:textSize="8mm"
+            android:text="Howdy, Unhealthy swine! You've FINALLY opened the Healf App. So move your fat, grubby fingers to the hamburger menu and do your SHIT!"
+
+            android:id="@+id/bob"
+            android:gravity="bottom" />
+    </FrameLayout>
     <!-- The navigation drawer -->
     <LinearLayout
         android:id="@+id/drawer_linear_layout"
@@ -24,15 +40,13 @@
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:choiceMode="singleChoice"
-            android:divider="@android:color/white"
+            android:divider="@android:color/holo_blue_light"
             android:dividerHeight="1dp"
             android:background="#FFCC0000"
             />
 
 
     </LinearLayout>
-
-
 
 
 </android.support.v4.widget.DrawerLayout>

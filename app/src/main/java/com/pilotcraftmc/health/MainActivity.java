@@ -20,6 +20,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -38,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Navigation Bar Section//
+         //Navigation Bar Section//
         mNavItems = getResources().getStringArray(R.array.nav_items);
         mTitle = mDrawerTitle = getTitle();
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);  //activity_main.xml
@@ -118,7 +119,7 @@ public class MainActivity extends ActionBarActivity {
                 break;
             case 4:
                 Intent bob = new Intent(android.content.Intent.ACTION_VIEW,
-                        Uri.parse("http://maps.google.com/maps?saddr=20.344,34.34&daddr=20.5666,45.345"));
+                        Uri.parse("https://www.google.com/maps/search/hospital/@34.1130022,-118.1527823,15z?hl=ch"));
                 startActivity(bob);
                 fragment = new PlaceHolderFragment();
                 break;
