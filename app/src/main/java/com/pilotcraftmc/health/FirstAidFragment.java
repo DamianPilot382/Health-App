@@ -12,8 +12,6 @@ import android.widget.HorizontalScrollView;
 import android.widget.TabHost;
 import android.widget.TabHost.OnTabChangeListener;
 
-import com.pilotcraftmc.health.FirstAid.Fragment1;
-import com.pilotcraftmc.health.FirstAid.Fragment2;
 import com.pilotcraftmc.health.FirstAid.Fragment3;
 
 import java.util.ArrayList;
@@ -40,8 +38,10 @@ public class FirstAidFragment extends Fragment implements ViewPager.OnPageChange
         viewPager = (ViewPager) rootView.findViewById(R.id.view_pager);
         List<Fragment> listFragments = new ArrayList<Fragment>();
         listFragments.add(new BurnsFragment());
-        listFragments.add(new Fragment2());
+        listFragments.add(new CprFragment());
         listFragments.add(new Fragment3());
+
+        viewPager.setOffscreenPageLimit(listFragments.size());
 
         MyFragmentPagerAdapter myFragmentPagerAdapter = new MyFragmentPagerAdapter(getFragmentManager(),listFragments);
         viewPager.setAdapter(myFragmentPagerAdapter);
@@ -49,7 +49,7 @@ public class FirstAidFragment extends Fragment implements ViewPager.OnPageChange
         tabHost = (TabHost) rootView.findViewById(R.id.tabHost);
         tabHost.setup();
 
-        String[] tabNames = {"Burns", "Tab2", "Tab3"};
+        String[] tabNames = {"Burns", "CPR", "Fire"};
         for(int i=0; i<tabNames.length; i++){
             TabHost.TabSpec tabSpec;
             tabSpec = tabHost.newTabSpec(tabNames[i]);

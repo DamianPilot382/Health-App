@@ -5,18 +5,20 @@
               android:layout_height="match_parent"
               android:padding="10dp">
     <TextView
-        android:id="@+id/fireTextTitle"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="If you are on fire:"
+        android:text="How to perform CPR"
         android:textStyle="bold"
         />
 
     <TextView
-        android:id="@+id/fireText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/cpr"
         />
+
 </LinearLayout>

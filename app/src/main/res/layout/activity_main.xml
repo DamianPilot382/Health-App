@@ -2,12 +2,23 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#05377B"
+    >
+
     <!-- The main content view -->
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_height="272dp"
+            android:layout_width="184dp"
+            android:layout_gravity="left|top"
+            android:background="@drawable/arrow" />
+
+    </FrameLayout>
     <!-- The navigation drawer -->
     <LinearLayout
         android:id="@+id/drawer_linear_layout"
@@ -24,14 +35,13 @@
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:choiceMode="singleChoice"
-            android:divider="@android:color/white"
+            android:divider="@android:color/holo_blue_light"
             android:dividerHeight="1dp"
             android:background="#FFCC0000"
             />
 
 
     </LinearLayout>
-
 
 
 
