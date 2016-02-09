@@ -3,7 +3,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#05377B"
+    android:background="#d1d1e0"
     >
 
     <!-- The main content view -->
@@ -16,11 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textStyle="italic"
-            android:textColor="#ffffffff"
+            android:textColor="#d1d1e0"
             android:textAlignment="center"
-            android:textSize="8mm"
-            android:text="Howdy, Unhealthy swine! You've FINALLY opened the Healf App. So move your fat, grubby fingers to the hamburger menu and do your SHIT!"
-
             android:id="@+id/bob"
             android:gravity="bottom" />
     </FrameLayout>
