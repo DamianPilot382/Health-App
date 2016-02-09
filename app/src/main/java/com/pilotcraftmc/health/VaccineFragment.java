@@ -21,7 +21,7 @@ public class VaccineFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment+
-       View rootView= inflater.inflate(R.layout.fragment_vaccine, container, false);
+        View rootView= inflater.inflate(R.layout.fragment_vaccine, container, false);
 
         mItems = getResources().getStringArray(R.array.vaccine);
 
